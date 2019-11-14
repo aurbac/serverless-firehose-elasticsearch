@@ -16,7 +16,7 @@ service: serverless-firehose-elasticsearch # NOTE: update this with your service
 #tenant: your-tenant-name
 
 custom:
-  myPublicIp: "72.21.196.65"
+  myPublicIp: "72.21.196.64"
   esDomainName: kabits-com-${self:provider.stage}
   esInstanceType: t2.small.elasticsearch
   esVolumeSize: 10
